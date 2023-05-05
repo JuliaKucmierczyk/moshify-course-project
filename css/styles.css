@@ -205,7 +205,7 @@ a {
   cursor: pointer;
   font-size: 1.8rem;
   font-weight: 600;
-  padding: 1.8rem 3rem;
+  padding: 2rem 4vw;
   text-transform: uppercase;
   white-space: nowrap;
   margin: 1rem 0;
@@ -297,6 +297,7 @@ a {
   border: 0;
   flex-grow: 1;
   padding: 1.5rem 2rem;
+  width: 0;
 }
 
 .input-group .btn {
@@ -551,7 +552,9 @@ a {
 /* Callouts */
 .callout {
   padding: 4rem;
-  border-radius: 5px;
+  border-radius: 10px;
+  position: relative;
+  top: 4rem;
 }
 
 .callout--primary {
@@ -758,8 +761,9 @@ a {
 }
 
 .block-domain__prices {
+  color: var(--color-headings);
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 6rem);
   font-size: 2rem;
   font-weight: 700;
